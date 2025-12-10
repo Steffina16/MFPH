@@ -18,10 +18,52 @@
             <nav>
                 <a href="/">Home</a>
                 <a href="/products">Bags</a>
-                <a href="#about">About</a>
             </nav>
         </div>
     </header>
+
+<!-- ======================== HERO SLIDER ======================== -->
+<section class="hero-slider">
+
+    <div class="slides">
+        <div class="slide active">
+            <img src="{% static 'images/test.webp' %}" alt="">
+            <div class="hero-text">
+                <h1>Affordable Pre-Loved Bags</h1>
+                <a href="/products" class="hero-btn">Shop Now</a>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="{% static 'images/test2.webp' %}" alt="">
+            <div class="hero-text">
+                <h1>Curated With Love & Style</h1>
+                <a href="/products" class="hero-btn">Browse Collection</a>
+            </div>
+        </div>
+
+        <div class="slide">
+            <img src="{% static 'images/test3.webp' %}" alt="">
+            <div class="hero-text">
+                <h1>Handpicked Bags Just For You</h1>
+                <a href="/products" class="hero-btn">See More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Arrows -->
+    <div class="slider-arrow left">&#10094;</div>
+    <div class="slider-arrow right">&#10095;</div>
+
+    <!-- Dots -->
+    <div class="slider-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+</section>
+
 
     <!-- ======================== CATEGORIES SECTION ======================== -->
     <section class="categories">
@@ -120,7 +162,7 @@
             <ul>
                 <li>Phone Number: <a href="tel:+639227013028">0922-701-3028</a></li>
                 <li>Email:<a href="mailto:Gelaniebeverly@gmail.com"> Gelaniebeverly@gmail.com</a> </li>
-                <li><a href="https://m.me/100083239513227" target="_blank">Messenger</a></li>
+                <li><a href="https://www.facebook.com/messages/t/100083239513227" target="_blank">Message Us</a></li>
                 <li><a href="https://facebook.com/profile.php?id=100083239513227" target="_blank">Facebook Page</a></li>
             </ul>
         </div>
@@ -131,7 +173,6 @@
         <p>© 2025 Mommy Facionista PH — All Rights Reserved.</p>
     </div>
 </footer>
-
-
+<script defer src="{% static 'js/script.js' %}"></script>
 </body>
 </html>
