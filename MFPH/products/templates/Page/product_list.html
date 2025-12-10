@@ -1,0 +1,137 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MFPH – Home</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="icon" href="{% static 'images/favicon.ico' %}">
+</head>
+<body>
+
+    <!-- TOPBAR -->
+    <header>
+        <div class="topbar">
+            <img src="{% static 'images/logo.png' %}" class="logo" alt="Logo">
+
+            <nav>
+                <a href="/">Home</a>
+                <a href="/products">Bags</a>
+                <a href="#about">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ======================== CATEGORIES SECTION ======================== -->
+    <section class="categories">
+        <h2>Categories</h2>
+
+        <div class="category-grid">
+
+            <div class="category-card">
+                <img src="{% static 'images/handbags.jpg' %}">
+                <p>Handbags</p>
+            </div>
+
+            <div class="category-card">
+                <img src="{% static 'images/ToteBags.jpg' %}">
+                <p>Tote Bags</p>
+            </div>
+
+            <div class="category-card">
+                <img src="{% static 'images/ShoulderBags.jpg' %}">
+                <p>Shoulder Bags</p>
+            </div>
+
+            <div class="category-card">
+                <img src="{% static 'images/Backpack.jpg' %}">
+                <p>Backpacks</p>
+            </div>
+
+        </div>
+    </section>
+
+<!-- ======================== RECENTLY ADDED PRODUCTS ======================== -->
+<section class="recent-products">
+    <h2>Recently Added Products</h2>
+
+    <div class="recent-grid">
+
+        <!-- Product 1 -->
+        <div class="recent-card">
+            <img src="{% static 'images/sample1.jpg' %}" alt="Bag">
+            <h3>Sample Bag 1</h3>
+            <p class="price">₱450</p>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="recent-card">
+            <img src="{% static 'images/sample2.jpg' %}" alt="Bag">
+            <h3>Sample Bag 2</h3>
+            <p class="price">₱520</p>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="recent-card">
+            <img src="{% static 'images/sample3.jpg' %}" alt="Bag">
+            <h3>Sample Bag 3</h3>
+            <p class="price">₱380</p>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="recent-card">
+            <img src="{% static 'images/sample4.jpg' %}" alt="Bag">
+            <h3>Sample Bag 4</h3>
+            <p class="price">₱600</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ======================== FOOTER ======================== -->
+<footer>
+    <div class="footer-container">
+
+        <!-- Column 1: Brand / Intro -->
+        <div class="footer-column">
+            <h3>MFPH Boutique</h3>
+            <p class="footer-about">
+                Your trusted shop for pre-loved and affordable bags.  
+                Quality checked, budget-friendly, and curated with love.
+            </p>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="footer-column">
+            <h4>Help & Support</h4>
+            <ul>
+                <li><a href="/about">About MFPH</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/privacy">Privacy Policy</a></li>
+                <li><a href="/customer-service">Customer Service</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 3: Contact -->
+        <div class="footer-column">
+            <h4>Contact Us</h4>
+            <ul>
+                <li>Phone Number: <a href="tel:+639227013028">0922-701-3028</a></li>
+                <li>Email:<a href="mailto:Gelaniebeverly@gmail.com"> Gelaniebeverly@gmail.com</a> </li>
+                <li><a href="https://m.me/100083239513227" target="_blank">Messenger</a></li>
+                <li><a href="https://facebook.com/profile.php?id=100083239513227" target="_blank">Facebook Page</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2025 Mommy Facionista PH — All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
